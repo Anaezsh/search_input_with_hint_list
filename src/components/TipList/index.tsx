@@ -2,7 +2,9 @@ import React from 'react';
 import {
     View,
     Text,
-    ScrollView, TouchableOpacity,
+    TouchableOpacity,
+    FlatList,
+    ListRenderItemInfo,
 } from 'react-native';
 
 import {styles} from './styles';
@@ -22,7 +24,9 @@ export const TipList = (props: IProps) => {
 
     if (!list || list.length === 0 || isHidden) return null;
 
-    const renderItem = (item: string) => {
+    const renderItem = (info: ListRenderItemInfo<string>) => {
+        const {item} = info;
+
         return (
             <TouchableOpacity
                 key={item}
@@ -35,13 +39,15 @@ export const TipList = (props: IProps) => {
         );
     };
 
+    const keyExtractor = (item: string) => item;
+
     return (
         <View style={[styles.listContainer, styles.shadow]}>
-            <ScrollView>
-                {list.map((item: string) => {
-                    return renderItem(item);
-                })}
-            </ScrollView>
+            <FlatList
+                data={list}
+                renderItem={renderItem}
+                keyExtractor={keyExtractor}
+            />
         </View>
 
     );
