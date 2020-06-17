@@ -1,5 +1,7 @@
 import React, {useState, useEffect, useCallback} from 'react';
 import {
+    Text,
+    TouchableOpacity,
     View,
 } from 'react-native';
 import {useSelector, useDispatch} from 'react-redux';
@@ -35,16 +37,24 @@ export const InputWithTipList = (props: IProps) => {
 
     const onSearch = useCallback(() => {}, []);
 
-    const onListItemPress =  (item: string) => {
-        return () => {
-            setSearchText(item);
-            setIsTipsHidden(true);
-        }
-    };
-
     const inputFocusCallback = () => {
         setIsTipsHidden(false);
     };
+
+    const renderItemTip = useCallback((item: string) => {
+        const onPress = () => {
+            setSearchText(item);
+            setIsTipsHidden(true);
+        };
+
+        return (
+            <TouchableOpacity onPress={onPress}>
+                <Text style={styles.item}>
+                    {item}
+                </Text>
+            </TouchableOpacity>
+        );
+    }, []);
 
     return (
         <View style={styles.container}>
@@ -58,8 +68,8 @@ export const InputWithTipList = (props: IProps) => {
             />
             <TipList
                 list={tipList}
-                onListItemPress={onListItemPress}
                 isHidden={isTipsHidden}
+                renderItemTip={renderItemTip}
             />
         </View>
     );

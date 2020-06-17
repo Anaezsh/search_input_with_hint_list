@@ -21,8 +21,7 @@ export default function App() {
             <InputWithTipList/>
             <View>
               <Text>Just some text</Text>
-              <Text>a;jgagorkaea;k fj;oirjgnfgiowur5i naf;soiguneruowuer nvao;eirtowieurtqu3poue vna;oruoetoirejaqng</Text>
-              <Text>a;jgagorkaea;k fj;oirjgnfgiowur5i naf;soiguneruowuer nvao;eirtowieurtqu3poue vna;oruoetoirejaqng</Text>
+              <Text>It will be overlapped by tipList</Text>
             </View>
           </View>
         </SafeAreaView>

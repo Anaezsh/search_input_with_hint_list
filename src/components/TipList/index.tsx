@@ -1,8 +1,6 @@
 import React from 'react';
 import {
     View,
-    Text,
-    TouchableOpacity,
     FlatList,
     ListRenderItemInfo,
 } from 'react-native';
@@ -12,14 +10,14 @@ import {styles} from './styles';
 interface IProps {
     list: string[] | undefined;
     isHidden: boolean;
-    onListItemPress: (item: string) => () => void;
+    renderItemTip: (item: string) => React.ReactElement;
 }
 
 export const TipList = (props: IProps) => {
     const {
         list,
         isHidden,
-        onListItemPress,
+        renderItemTip,
     } = props;
 
     if (!list || list.length === 0 || isHidden) return null;
@@ -27,16 +25,7 @@ export const TipList = (props: IProps) => {
     const renderItem = (info: ListRenderItemInfo<string>) => {
         const {item} = info;
 
-        return (
-            <TouchableOpacity
-                key={item}
-                onPress={onListItemPress(item)}
-            >
-                <Text style={styles.item}>
-                    {item}
-                </Text>
-            </TouchableOpacity>
-        );
+        return renderItemTip(item);
     };
 
     const keyExtractor = (item: string) => item;
