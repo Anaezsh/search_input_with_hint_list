@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
         left: 0,
         right: 0,
         backgroundColor: COLORS.White,
-        zIndex: 1000,
+        zIndex: 2,
     },
     shadow: {
         shadowColor: COLORS.GreyBlue,
@@ -24,10 +24,5 @@ export const styles = StyleSheet.create({
         shadowRadius: 5,
         shadowOpacity: 0.5,
         elevation: 1,
-    },
-    item: {
-        height: 30,
-        paddingHorizontal: 5,
-        lineHeight: 30,
     },
 });

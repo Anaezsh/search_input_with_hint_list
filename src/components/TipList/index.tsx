@@ -5,12 +5,14 @@ import {
     ListRenderItemInfo,
 } from 'react-native';
 
-import {styles} from './styles';
+import {styles} from './style';
+
+import {IFruitTip} from '../../store/search/types/state';
 
 interface IProps {
-    list: string[] | undefined;
+    list: IFruitTip[] | undefined;
     isHidden: boolean;
-    renderItemTip: (item: string) => React.ReactElement;
+    renderItemTip: (item: IFruitTip) => React.ReactElement;
 }
 
 export const TipList = (props: IProps) => {
@@ -22,13 +24,13 @@ export const TipList = (props: IProps) => {
 
     if (!list || list.length === 0 || isHidden) return null;
 
-    const renderItem = (info: ListRenderItemInfo<string>) => {
+    const renderItem = (info: ListRenderItemInfo<IFruitTip>) => {
         const {item} = info;
 
         return renderItemTip(item);
     };
 
-    const keyExtractor = (item: string) => item;
+    const keyExtractor = (item: IFruitTip) => item.id.toString();
 
     return (
         <View style={[styles.listContainer, styles.shadow]}>
@@ -36,6 +38,7 @@ export const TipList = (props: IProps) => {
                 data={list}
                 renderItem={renderItem}
                 keyExtractor={keyExtractor}
+                disableScrollViewPanResponder={true}
             />
         </View>
 

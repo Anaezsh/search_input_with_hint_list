@@ -3,7 +3,9 @@ import {
     View,
     TextInput,
     TouchableOpacity,
-    Image, NativeSyntheticEvent, TextInputFocusEventData,
+    Image,
+    NativeSyntheticEvent,
+    TextInputFocusEventData,
 } from 'react-native';
 
 import {styles} from './style';
@@ -14,9 +16,7 @@ interface IProps {
     text: string;
     setText: (text: string) => void;
     onSearchPress: () => void;
-    onClearPress: () => void;
     placeholder?: string;
-    focusCallback?: () => void;
 }
 
 export const SearchInput = (props: IProps) => {
@@ -24,19 +24,20 @@ export const SearchInput = (props: IProps) => {
         text,
         setText,
         onSearchPress,
-        onClearPress,
         placeholder,
-        focusCallback,
     } = props;
     const [isFocused, setIsFocused] = useState<boolean>(false);
 
     const onFocus = (e: NativeSyntheticEvent<TextInputFocusEventData>) => {
         setIsFocused(true);
-        focusCallback && focusCallback();
     };
 
     const onBlur =  (e: NativeSyntheticEvent<TextInputFocusEventData>) => {
         setIsFocused(false);
+    };
+
+    const onClearPress = () => {
+        setText('');
     };
 
     return (

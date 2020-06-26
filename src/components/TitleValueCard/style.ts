@@ -6,11 +6,12 @@ import {COLORS} from '../../constants';
 
 export const styles = StyleSheet.create({
     container: {
-        zIndex: 2,
+        marginBottom: 20,
     },
-    item: {
-        height: 30,
-        paddingHorizontal: 5,
-        lineHeight: 30,
+    title: {
+        color: COLORS.Green,
+        fontSize: 16,
+        textTransform: 'uppercase',
+        marginBottom: 20,
     },
 });

@@ -11,24 +11,24 @@ import {ISearchAction} from '../types/actions';
 import {get} from '../../../utils/network';
 
 interface IResponse {
-    data: Record<string, string[]>
+    data: IFruitTip[];
 }
 
+// for simulator test
 export const getTips = (text: string) => {
     return (dispatch: Dispatch<ISearchAction>) => {
         dispatch(setIsLoading(true));
 
-        return get('/tips')
+        return get(`/fruitList?q=${text}`)
             .then((res: IResponse) => {
-                const {
-                    data,
-                } = res;
-                const firstSymbol: string = text[0];
-                const list: string[] = data[firstSymbol]
-                    ? data[firstSymbol].filter((item: string) => item.includes(text))
-                    : [];
-
-                dispatch(saveTipList(text, list));
+                const {data} = res;
+                const textLower: string = text.toLowerCase();
+                const result = data.filter((item: IFruitTip) => {
+                        const {name} = item;
+                         return name.startsWith(textLower);
+                     });
+                console.log(result);
+                dispatch(saveTipList(textLower, result));
             })
             .catch((err: string) => {
                 console.log('err', err);
@@ -39,3 +39,29 @@ export const getTips = (text: string) => {
             })
     }
 };
+
+// for real devise test
+// export const getTips = (text: string) => {
+//     return (dispatch: Dispatch<ISearchAction>) => {
+//         dispatch(setIsLoading(true));
+//
+//         return get('/tips')
+//             .then((res: IResponse) => {
+//                 const {data} = res;
+//                 const textLower: string = text.toLowerCase();
+//                 const result = data.filter((item: IFruitTip) => {
+//                     const {name} = item;
+//                     return name.startsWith(textLower);
+//                 });
+//
+//                 dispatch(saveTipList(textLower, result));
+//             })
+//             .catch((err: string) => {
+//                 console.log('err', err);
+//                 dispatch(setError(err));
+//             })
+//             .finally(() => {
+//                 dispatch(setIsLoading(false));
+//             })
+//     }
+// };
