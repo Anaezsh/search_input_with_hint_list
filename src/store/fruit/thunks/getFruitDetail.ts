@@ -1,13 +1,12 @@
-import {Dispatch} from 'react';
+import {AppThunk, ThunkDispatchType} from '../../index';
 
 import {
     setIsLoading,
     setError,
     saveFruit,
-} from '../actions';
+} from '..';
 
-import {IFruitAction} from '../types/actions';
-import {IFruit} from '../types/state';
+import {IFruit} from '..';
 
 import {get} from '../../../utils/network';
 
@@ -22,8 +21,8 @@ interface IResponse {
 }
 
 // for simulator test
-export const getFruitDetail = (id: number) => {
-    return (dispatch: Dispatch<IFruitAction>) => {
+export const getFruitDetail = (id: number): AppThunk => {
+    return (dispatch: ThunkDispatchType) => {
         dispatch(setIsLoading(true));
 
         return get(`/detailedFruitList/${id}`)
@@ -42,8 +41,8 @@ export const getFruitDetail = (id: number) => {
 };
 
 // for real devise test
-// export const getFruitDetail = (id: number) => {
-//     return (dispatch: Dispatch<IFruitAction>) => {
+// export const getFruitDetail = (id: number): AppThunk => {
+//     return (dispatch: ThunkDispatchType) => {
 //         dispatch(setIsLoading(true));
 //
 //         return get('/detail')

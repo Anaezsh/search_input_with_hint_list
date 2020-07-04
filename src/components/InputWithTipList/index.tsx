@@ -13,10 +13,10 @@ import TipList from '../TipList';
 
 import {getTips} from '../../store/search/thunks/getTips';
 import {getFruitDetail} from '../../store/fruit/thunks/getFruitDetail';
-import {saveSelectedFruitId} from '../../store/fruit/actions';
+import {saveSelectedFruitId} from '../../store/fruit';
 
 import {IState} from '../../store';
-import {IFruitTip} from '../../store/search/types/state';
+import {IFruitTip} from '../../store/search';
 
 import {TEXT} from '../../constants';
 

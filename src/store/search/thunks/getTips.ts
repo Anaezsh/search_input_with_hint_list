@@ -1,12 +1,12 @@
-import {Dispatch} from 'react';
+import {AppThunk, ThunkDispatchType} from '../../index';
 
 import {
     setIsLoading,
     setError,
     saveTipList,
-} from '../actions';
+} from '..';
 
-import {ISearchAction} from '../types/actions';
+import {IFruitTip} from '..';
 
 import {get} from '../../../utils/network';
 
@@ -15,8 +15,8 @@ interface IResponse {
 }
 
 // for simulator test
-export const getTips = (text: string) => {
-    return (dispatch: Dispatch<ISearchAction>) => {
+export const getTips = (text: string): AppThunk => {
+    return (dispatch: ThunkDispatchType) => {
         dispatch(setIsLoading(true));
 
         return get(`/fruitList?q=${text}`)
@@ -28,7 +28,7 @@ export const getTips = (text: string) => {
                          return name.startsWith(textLower);
                      });
                 console.log(result);
-                dispatch(saveTipList(textLower, result));
+                dispatch(saveTipList({text: textLower, list: result}));
             })
             .catch((err: string) => {
                 console.log('err', err);
@@ -41,8 +41,8 @@ export const getTips = (text: string) => {
 };
 
 // for real devise test
-// export const getTips = (text: string) => {
-//     return (dispatch: Dispatch<ISearchAction>) => {
+// export const getTips = (text: string): AppThunk => {
+//     return (dispatch: ThunkDispatchType) => {
 //         dispatch(setIsLoading(true));
 //
 //         return get('/tips')
@@ -54,7 +54,7 @@ export const getTips = (text: string) => {
 //                     return name.startsWith(textLower);
 //                 });
 //
-//                 dispatch(saveTipList(textLower, result));
+//                 dispatch(saveTipList({text: textLower, list: result}));
 //             })
 //             .catch((err: string) => {
 //                 console.log('err', err);

@@ -1,0 +1,1331 @@
+{
+  "fruitList": [
+    {
+      "id": 1,
+      "name": "acerola"
+    },
+    {
+      "id": 2,
+      "name": "apple"
+    },
+    {
+      "id": 3,
+      "name": "apricot"
+    },
+    {
+      "id": 4,
+      "name": "avocado"
+    },
+    {
+      "id": 5,
+      "name": "banana"
+    },
+    {
+      "id": 6,
+      "name": "blackberries"
+    },
+    {
+      "id": 7,
+      "name": "blackcurrant"
+    },
+    {
+      "id": 8,
+      "name": "blueberries"
+    },
+    {
+      "id": 9,
+      "name": "breadfruit"
+    },
+    {
+      "id": 10,
+      "name": "cantaloupe"
+    },
+    {
+      "id": 11,
+      "name": "carambola"
+    },
+    {
+      "id": 12,
+      "name": "cherimoya"
+    },
+    {
+      "id": 13,
+      "name": "cherry"
+    },
+    {
+      "id": 14,
+      "name": "clementine"
+    },
+    {
+      "id": 15,
+      "name": "coconut"
+    },
+    {
+      "id": 16,
+      "name": "cranberries"
+    },
+    {
+      "id": 17,
+      "name": "custard-apple"
+    },
+    {
+      "id": 18,
+      "name": "date fruit"
+    },
+    {
+      "id": 19,
+      "name": "durian"
+    },
+    {
+      "id": 20,
+      "name": "elderberries"
+    },
+    {
+      "id": 21,
+      "name": "feijoa"
+    },
+    {
+      "id": 22,
+      "name": "fig"
+    },
+    {
+      "id": 23,
+      "name": "gooseberries"
+    },
+    {
+      "id": 24,
+      "name": "grapefruit"
+    },
+    {
+      "id": 25,
+      "name": "grapes"
+    },
+    {
+      "id": 26,
+      "name": "guava"
+    },
+    {
+      "id": 27,
+      "name": "honeydew melon"
+    },
+    {
+      "id": 28,
+      "name": "jackfruit"
+    },
+    {
+      "id": 29,
+      "name": "java-plum"
+    },
+    {
+      "id": 30,
+      "name": "jujube fruit"
+    },
+    {
+      "id": 31,
+      "name": "kiwi"
+    },
+    {
+      "id": 32,
+      "name": "kumquat"
+    },
+    {
+      "id": 33,
+      "name": "lemon"
+    },
+    {
+      "id": 34,
+      "name": "lime"
+    },
+    {
+      "id": 35,
+      "name": "longan"
+    },
+    {
+      "id": 36,
+      "name": "loquat"
+    },
+    {
+      "id": 37,
+      "name": "lychee"
+    },
+    {
+      "id": 38,
+      "name": "mandarin"
+    },
+    {
+      "id": 39,
+      "name": "mango"
+    },
+    {
+      "id": 40,
+      "name": "mangosteen"
+    },
+    {
+      "id": 41,
+      "name": "mulberries"
+    },
+    {
+      "id": 42,
+      "name": "nectarine"
+    },
+    {
+      "id": 43,
+      "name": "olives"
+    },
+    {
+      "id": 44,
+      "name": "orange"
+    },
+    {
+      "id": 45,
+      "name": "papaya"
+    },
+    {
+      "id": 46,
+      "name": "passion fruit"
+    },
+    {
+      "id": 47,
+      "name": "peach"
+    },
+    {
+      "id": 48,
+      "name": "pear"
+    },
+    {
+      "id": 49,
+      "name": "persimmon"
+    },
+    {
+      "id": 50,
+      "name": "pitaya"
+    },
+    {
+      "id": 51,
+      "name": "pineapple"
+    },
+    {
+      "id": 52,
+      "name": "pitanga"
+    },
+    {
+      "id": 53,
+      "name": "platain"
+    },
+    {
+      "id": 54,
+      "name": "plum"
+    },
+    {
+      "id": 55,
+      "name": "pomegranate"
+    },
+    {
+      "id": 56,
+      "name": "prickly pear"
+    },
+    {
+      "id": 57,
+      "name": "prunes"
+    },
+    {
+      "id": 58,
+      "name": "pummelo"
+    },
+    {
+      "id": 59,
+      "name": "quince"
+    },
+    {
+      "id": 60,
+      "name": "raspberries"
+    },
+    {
+      "id": 61,
+      "name": "rhubarb"
+    },
+    {
+      "id": 62,
+      "name": "rose apple"
+    },
+    {
+      "id": 63,
+      "name": "sapodilla"
+    },
+    {
+      "id": 64,
+      "name": "sapote"
+    },
+    {
+      "id": 65,
+      "name": "soursop"
+    },
+    {
+      "id": 66,
+      "name": "strawberries"
+    },
+    {
+      "id": 67,
+      "name": "sugar-apple"
+    },
+    {
+      "id": 68,
+      "name": "tamarind"
+    },
+    {
+      "id": 69,
+      "name": "tangerine"
+    },
+    {
+      "id": 70,
+      "name": "watermelon"
+    }
+  ],
+  "detailedFruitList": [
+    {
+      "id": 1,
+      "name": "acerola",
+      "img": "../../../assets/acerola.gif",
+      "serving": "5 g (1 fruit) ",
+      "nutrition": [
+        "134% Recommended Daily Intake per serving)",
+        "Sodium-free (1 mg per serving)",
+        "Fat-free (0.01 g per serving)"
+      ],
+      "lookFor": "Small, firm, dark red, cherry-like fruit.",
+      "store": "Keep uncovered at room temperature for a few days or refrigerate washed fruits in a ventilated container for 1 to 2 weeks.",
+      "prepare": "Fresh fruits may be eaten plain or pressed into juice, jams and preserves."
+    },
+    {
+      "id": 2,
+      "name": "apple",
+      "img": "../../../assets/apple.gif",
+      "serving": "140 g (1 medium)",
+      "nutrition": [
+        "Source of Vitamin C (6% Recommended Daily Intake per serving)",
+        "High in fibre (3 g per serving)",
+        "Sodium-free (1 mg per serving)"
+      ],
+      "lookFor": "Well shaped, smooth skinned fruit that is free of bruises. Brownish freckled areas do not affect flavour.",
+      "store": "Store in perforated plastic bags in the refrigerator crisper. Cold, humid storage ensures that apples maintain their crispness, juicy texture and full flavour. Apples soften 10 times faster at room temperature.",
+      "prepare": "Rinse and eat. To prevent browning, coat cut surfaces with lemon juice."
+    },
+    {
+      "id": 3,
+      "name": "apricot",
+      "img": "../../../assets/apricot.jpg",
+      "serving": "105 g (3 small)",
+      "nutrition": [
+        "Source of Vitamin C (18% Recommended Daily Intake per serving)",
+        "Source of potassium (272 mg per serving)",
+        "Source of fibre (2 g per serving)",
+        "Sodium-free (1 mg per serving)",
+        "Fat-free (0.4 g per serving)"
+      ],
+      "lookFor": "Plump, fairly firm fruit with as much golden orange as possible.",
+      "store": "Cover, refrigerate unwashed ripe fruit for up to one week. Ripen firm fruit at room temperature until it yields to gentle pressure.",
+      "prepare": "Rinse. Cut fruit lengthwise around pit and gently twist to separate halves. Blanching removes skins."
+    },
+    {
+      "id": 4,
+      "name": "avocado",
+      "img": "../../../assets/avocado.jpg",
+      "serving": "130 g (1/5 fruit)",
+      "lookFor": "Ripe, soft fruit. Avoid fruit with dark sunken spots or bruises. Colour and texture depend on variety.",
+      "store": "Cover and refrigerate ripe or cut fruit for up to five days. Ripen firm fruit at room temperature until it yields to gentle pressure.",
+      "prepare": "Rinse, remove pit by cutting lengthwise around seed. Gently twist to separate halves. Peel skin. To prevent browning, coat with lemon juice."
+    },
+    {
+      "id": 5,
+      "name": "banana",
+      "img": "../../../assets/banana.gif",
+      "serving": "140 g (1 large)",
+      "nutrition": [
+        "High in potassium (500 mg per serving)",
+        "Source of Vitamin C (15% Recommended Daily Intake per serving)",
+        "Source of fibre (3 g per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Firm, unblemished bananas. Yellow with brown speckles indicates a sweet tender fruit.",
+      "store": "Keep at room temperature until desire ripeness. For longer storage, once ripe, refrigerate. The peel will darken but remains fresh.",
+      "prepare": "Peel and eat. To prevent browning, coat surface with lemon juice. Use over ripe bananas in baking."
+    },
+    {
+      "id": 6,
+      "name": "blackberries",
+      "img": "../../../assets/blackberry.jpg",
+      "nutrition": [
+        "Excellent source of fibre",
+        "Good source of Vitamin C"
+      ],
+      "lookFor": "Firm, firm, plump, blackberries",
+      "store": "Keep in the fridge for 1 to 3 days",
+      "prepare": "Wash them with water and pat dry"
+    },
+    {
+      "id": 7,
+      "name": "blackcurrant",
+      "img": "../../../assets/blackcurrant.gif",
+      "serving": "59 g (125 mL)",
+      "nutrition": [
+        "Very high in Vitamin C (179% Recommended Daily Intake per serving)",
+        "Source of iron (7% Recommended Daily Intake per serving)",
+        "Sodium-free (1 mg per serving)",
+        "Fat-free (0.2 g per serving)"
+      ],
+      "lookFor": "Firm, dry berries with a nice black colour.",
+      "store": "Arrange unwashed on paper towel, in shallow pan. Cover, refrigerate for up to ten days. For longer storage, freeze berries for up to one year.",
+      "prepare": "Rinse, remove damaged berries and eat raw. Good for use in baking or jam."
+    },
+    {
+      "id": 8,
+      "name": "blueberries",
+      "img": "../../../assets/blueberries.jpg",
+      "serving": "80 g (1/2 cup)",
+      "nutrition": [
+        "Source of Vitamin C (10% Recommended Daily Intake per serving)",
+        "Source of fibre (2 g per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Firm, plump, dry, dark coloured blueberries with a powder blue bloom.",
+      "store": "Arrange unwashed on paper towel, in shallow pan. Cover, refrigerate for up to ten days. For longer storage, freeze berries for up to one year.",
+      "prepare": "Rinse. Remove damaged berries. Eat raw. Good in baking."
+    },
+    {
+      "id": 9,
+      "name": "breadfruit",
+      "img": "../../../assets/breadfruit.gif",
+      "serving": "96 g (1/4 fruit)",
+      "nutrition": [
+        "High in Vitamin C (46% Recommended Daily Intake per serving)",
+        "Source of magnesium (10% Recommended Daily Intake per serving)",
+        "Source of Vitamin B1 (8% Recommended Daily Intake per serving)",
+        "High in fibre (5 g per serving)",
+        "Sodium-free (2 mg per serving)",
+        "Fat-free (0.2 g per serving)"
+      ],
+      "lookFor": "A slightly soft fruit with an even colour and small globules of latex on the surface. Ripe breadfruit has creamy to yellow flesh, is slightly pasty in texture and is sweet to the taste. Unripe varieties are firm and evenly green.",
+      "store": "The fruit should be used quickly. Breadfruit does not handle refrigeration well and should be kept in a thick bag to prevent cold damage.",
+      "prepare": "Breadfruit can be eaten raw when ripe or cooked when unripe. Use common potato cooking methods to cook unripe breadfruit. The white flesh has a bread-like texture and a flavour somewhat like an artichoke or chestnut."
+    },
+    {
+      "id": 10,
+      "name": "cantaloupe",
+      "img": "../../../assets/cantaloupe.gif",
+      "serving": "150 g (1/4 medium)",
+      "nutrition": [
+        "Very high in Vitamin C (90% Recommended Daily Intake per serving)",
+        "Source of potassium (270 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Melon with a deeply netted, yellow-gold rind. Ripe fruit yields slightly to gentle pressure and has a musky fragrance.",
+      "store": "Refrigerate cut or ripe fruit in a sealed container for up to five days. Ripen at room temperature, loosely covered.",
+      "prepare": "Rinse, halve and scoop out seeds. Scoop out flesh or peel and cut as desired."
+    },
+    {
+      "id": 11,
+      "name": "carambola",
+      "img": "../../../assets/carambola.jpg",
+      "serving": "89 g (1 medium)",
+      "nutrition": [
+        "Very high in Vitamin C (51% Recommended Daily Intake per serving)",
+        "Source of folacin (5% Recommended Daily Intake per serving)",
+        "Source of fibre (2.5 g per serving)",
+        "High in fibre (5 g per serving)",
+        "Sodium-free (2 mg per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Firm, glossy unbruised fruit. Browning on the tips of the ridges is a sign of ripeness.",
+      "store": "Cover and refrigerate unwashed ripe fruit for up to 2 days. Ripen at room temperature until skin is golden and ribs are tinged slightly brown and sweet smell.",
+      "prepare": "Wash, dry and cut crosswise into thin slices. Crisp, juicy flesh with sweet tart flavour heightened if sprinkled with a little salt. Use as a garnish for meat dishes, appetizers and in salads."
+    },
+    {
+      "id": 12,
+      "name": "cherimoya",
+      "img": "../../../assets/cherimoya.gif",
+      "serving": "312 g (1 fruit)",
+      "nutrition": [
+        "Very high in Vitamin C (60% Recommended Daily Intake per serving)",
+        "Very high in Vitamin B6 (37% Recommended Daily Intake per serving)",
+        "High in magnesium (20% Recommended Daily Intake per serving)",
+        "Source of manganese (13% Recommended Daily Intake per serving)",
+        "Source of copper (11% Recommended Daily Intake per serving)",
+        "Source of iron (7% Recommended Daily Intake per serving)",
+        "Source of phosphorus (7% Recommended Daily Intake per serving)",
+        "Source of zinc (6% Recommended Daily Intake per serving)"
+      ],
+      "lookFor": "Fruits that are yellow-green, firm and without blemishes. Dark spots and splotches should be avoided.",
+      "store": "Cherimoyas will ripen at room temperature for a few days until softened. They can then be tightly wrapped and refrigerated for up to 4 days.",
+      "prepare": "The pulp of the cherimoya is the only edible part, so remove the seeds and peel before eating. Halve the fruit and spoon the inside from the shell. Cherimoyas are best served well-chilled."
+    },
+    {
+      "id": 13,
+      "name": "cherry",
+      "img": "../../../assets/cherries.jpg",
+      "serving": "140 g (21 cherries, 1 cup)",
+      "nutrition": [
+        "High in potassium (350 mg per serving)",
+        "Source of Vitamin C (15% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Plump, bright, coloured fruit. The deeper the colour the sweeter the fruit. Avoid very soft or shrivelled cherries.",
+      "store": "Arrange unwashed on paper towel in shallow pan. Cover and refrigerate for up to three days.",
+      "prepare": "Rinse. Remove stems and pits. Eat raw."
+    },
+    {
+      "id": 14,
+      "name": "clementine",
+      "img": "../../../assets/clementine.gif",
+      "serving": "74 g (1 fruit)",
+      "nutrition": [
+        "Very high in Vitamin C (60% Recommended Daily Intake per serving)",
+        "Sodium-free (1 mg per serving)",
+        "Fat-free (0.1 g per serving)"
+      ],
+      "lookFor": "Soft clementines that are free of blemishes and wrinkles, and have even colouration.",
+      "store": "Store clementines in a ventilated container. They can be kept in a refrigerator or some other cool, dry place for up to a month (or at room temperature for two or three days).",
+      "prepare": "Clementines are usually eaten fresh or as a salad topping. They can also be incorporated into a number of sauces, cakes and other desserts."
+    },
+    {
+      "id": 15,
+      "name": "coconut",
+      "img": "../../../assets/coconut.gif",
+      "serving": "100 g",
+      "nutrition": [
+        "Very high in manganese (75% Recommended Daily Intake per serving)",
+        "High in copper (22% Recommended Daily Intake per serving)",
+        "High in selenium (20% Recommended Daily Intake per serving)",
+        "High in iron (17% Recommended Daily Intake per serving)",
+        "Source of zinc (12% Recommended Daily Intake per serving)",
+        "Source of phosphorus (10% Recommended Daily Intake per serving)",
+        "Source of  Vitamin C (6% Recommended Daily Intake per serving)",
+        "High in potassium (356 mg per serving)"
+      ],
+      "lookFor": "A whole coconut that you can shake it up and down a little to see if there is water inside the coconut. If you do not hear anything, the coconut is too ripe and may taste soapy.",
+      "store": "Store a whole coconut in the fridge for up to two months. Once opened, the coconut meat can be kept covered in the fridge for up to 7 days.",
+      "prepare": "Eat coconut meat plain, or grate it for use in a variety of dishes."
+    },
+    {
+      "id": 16,
+      "name": "cranberries",
+      "img": "../../../assets/cranberries.jpg",
+      "serving": "1 cup",
+      "nutrition": [
+        "High in Vitamin C",
+        "Source of fibre"
+      ],
+      "lookFor": "Firm, dry berries with good clear pink to red colour.",
+      "store": "Keep in plastic bag in the refrigerator for up to 6 weeks or in the freezer for up to 12 months.",
+      "prepare": "Remove stems, rinse and drain and steam or boil."
+    },
+    {
+      "id": 17,
+      "name": "custard-apple",
+      "img": "../../../assets/custardapple.gif",
+      "serving": "120 g (1/2 medium)",
+      "nutrition": [
+        "High in Vitamin C (38% Recommended Daily Intake per serving)",
+        "High in magnesium (22% Recommended Daily Intake per serving)",
+        "High in Vitamin B6 (15% Recommended Daily Intake per serving)",
+        "Source of iron (6% Recommended Daily Intake per serving)"
+      ],
+      "lookFor": "Evenly coloured custard-apples which yield slightly when pressed. The ridges of the fruit may be slightly tinged with brown, but the fruit should not appear black, pulpy or withered. Avoid small (under 300g) and dark green fruit.",
+      "store": "Store in the fridge for up to 5 days.",
+      "prepare": "Custard-apples are soft when ripe and can be eaten plain or with cream and sugar."
+    },
+    {
+      "id": 18,
+      "name": "date fruit",
+      "img": "../../../assets/datefruit.gif",
+      "serving": "94 g (125 mL)",
+      "nutrition": [
+        "High in magnesium (16% Recommended Daily Intake per serving)",
+        "Source of Vitamin B6 (9% Recommended Daily Intake per serving)",
+        "Source of folacin (8% Recommended Daily Intake per serving)",
+        "Source of iron (7% Recommended Daily Intake per serving)",
+        "Source of phosphorus (5% Recommended Daily Intake per serving)",
+        "Very high in fibre (7.5 g per serving)",
+        "Sodium-free (2 mg per serving)",
+        "Fat-free (0.4 g per serving)"
+      ],
+      "lookFor": "Plump, evenly coloured specimens. All dates have a single long seed. The fruit should not look dry or withered and no crystals should appear on the exterior of the date.",
+      "store": "Fresh dates can be refrigerated for up to 2 weeks.",
+      "prepare": "Date fruit can be eaten raw or dried. Include it in an assortment of desserts."
+    },
+    {
+      "id": 19,
+      "name": "durian",
+      "img": "../../../assets/durian.gif",
+      "serving": "128 g (125 mL)",
+      "nutrition": [
+        "High in Vitamin C (42% Recommended Daily Intake per serving)",
+        "High in Vitamin B6 (23% Recommended Daily Intake per serving)",
+        "High in manganese (21% Recommended Daily Intake per serving)",
+        "Source of copper (13% Recommended Daily Intake per serving)",
+        "Very high in potassium (560 mg per serving)",
+        "Sodium-free (3 mg per serving)"
+      ],
+      "lookFor": "Durian that has cracked just a bit to allow you to smell its strong odour.",
+      "store": "Store durians in an air-tight container to preserve its natural aroma. Store in the fridge for up to 5 days.",
+      "prepare": "Slice the durian along this natural fissure. Reach in and grab one of the fleshy sections. Caution: Never ingest the durian seed – they are toxic."
+    },
+    {
+      "id": 20,
+      "name": "elderberries",
+      "img": "../../../assets/elderberries.gif",
+      "serving": "77 g (125 ml)",
+      "nutrition": [
+        "High in Vitamin C (46% Recommended Daily Intake per serving)",
+        "Source of Vitamin B6 (10% Recommended Daily Intake per serving)",
+        "Source of iron (9% Recommended Daily Intake per serving)",
+        "Source of potassium (214 mg per serving)",
+        "High in fibre (5 g per serving)",
+        "Fat-free (0.4 g per serving)"
+      ],
+      "lookFor": "Firm berries with a deep colour. Avoid decaying, mushy or bruised fruits.",
+      "store": "Remove moldy or mushy berries then store in the refrigerator (keep the original package if you wish) for up to 1 week.",
+      "prepare": "Rinse before consumption. Eat raw or used in jam and wine recipes."
+    },
+    {
+      "id": 21,
+      "name": "feijoa",
+      "img": "../../../assets/feijoa.gif",
+      "serving": "100 g (2 fruits)",
+      "nutrition": [
+        "High in Vitamin C (34% Recommended Daily Intake per serving)",
+        "Sodium-free (3 mg per serving)"
+      ],
+      "lookFor": "Fruit that is fragrant and gives slightly to gentle pressure.",
+      "store": "Ripe feijoas normally last about 3 to 5 days. Feijoas peeled and cooked into a puree and frozen.",
+      "prepare": "Peel the bitter skin and eat the raw feijoa flesh."
+    },
+    {
+      "id": 22,
+      "name": "fig",
+      "img": "../../../assets/fig.gif",
+      "serving": "100 g (2 medium)",
+      "nutrition": [
+        "VSource of magnesium (7% Recommended Daily Intake per serving)",
+        "Source of Vitamin K (6% Recommended Daily Intake per serving)",
+        "HSource of Vitamin B6 (6% Recommended Daily Intake per serving)",
+        "Source of manganese (6% Recommended Daily Intake per serving)",
+        "Source of potassium (232 mg per serving)",
+        "Sodium-free (1 mg per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Soft and smell sweet. Remember to handle them carefully – their fragile skins bruise easily. Figs will not ripen after being harvested so avoid very firm figs as they will not ripen further.",
+      "store": "Store fully ripened figs unwashed in a plastic bag in the refrigerator  for up to 2 days; bring to room temperature before serving.",
+      "prepare": "Figs are usually eaten whole, skin and all. There is no need to cut the fig into smaller pieces or to remove the seeds. Just wash the fresh figs in cold water."
+    },
+    {
+      "id": 23,
+      "name": "gooseberries",
+      "img": "../../../assets/gooseberries.gif",
+      "serving": "79 g (125 ml)",
+      "nutrition": [
+        "High in Vitamin C (37% Recommended Daily Intake per serving)",
+        "Source of fibre (3 g per serving)"
+      ],
+      "lookFor": "Brightly coloured fruits with dry caps and without mould or soft spots.",
+      "store": "Unwashed berries can last for 5 to 7 days in a ventilated container in the fridge.",
+      "prepare": "Rinse right before consumption. Eat ripen fruit raw. They turn from green to yellow/redish as they ripen."
+    },
+    {
+      "id": 24,
+      "name": "grapefruit",
+      "img": "../../../assets/grapefruit.gif",
+      "serving": "140 g (1/2 large)",
+      "nutrition": [
+        "Very high in Vitamin C (90% Recommended Daily Intake per serving)",
+        "Source of fibre (2 g per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Firm, well shaped fruit that is heavy for its size.",
+      "store": "Keep at cool room temperature for up to one week or refrigerate for up to one month.",
+      "prepare": "Rinse, peel, section fruit or cut in half and scoop out flesh from segments. Squeeze fruit for juice."
+    },
+    {
+      "id": 25,
+      "name": "grapes",
+      "img": "../../../assets/grapes.gif",
+      "serving": "140 g (21 grapes ; 1 cup)",
+      "nutrition": [
+        "Low in sodium (15 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Plump grapes that are firmly attached to green stems. Avoid wrinkled or sticky fruit.",
+      "store": "Cover, refrigerate unwashed for up to five days.",
+      "prepare": "Rinse just before serving."
+    },
+    {
+      "id": 26,
+      "name": "guava",
+      "img": "../../../assets/guava.gif",
+      "serving": "90 g (1 fruit)",
+      "nutrition": [
+        "Very high in Vitamin C (343% Recommended Daily Intake per serving)",
+        "Very high in Vitamin C (343% Recommended Daily Intake per serving)",
+        "High in folacin (20% Recommended Daily Intake per serving)",
+        "Source of potassium (256 mg per serving)",
+        "Sodium-free (2 mg per serving)"
+      ],
+      "lookFor": "Firm, green or yellow, free of blemishes.",
+      "store": "Cover and refrigerate ripe fruit for a day or two. Ripen at room temperature, out of direct sun until yields to gentle pressure.",
+      "prepare": "Cut in half crosswise and scoop out flesh or peel and thinly slice. Use in desserts and fruit salad. Fragrant flesh contains edible pips and tastes sweet-tart."
+    },
+    {
+      "id": 27,
+      "name": "honeydew melon",
+      "img": "../../../assets/honeydewmelon.gif",
+      "serving": "50 g (1/6 medium)",
+      "nutrition": [
+        "Excellent source of Vitamin C (50% Recommended Daily Intake per serving)",
+        "Source of potassium (240 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Heavy, evenly ripe but not soft, melon with cream colour rind and sweet fragrance.",
+      "store": "Refrigerate cut or ripe fruit in a sealed container for up to three days. Ripen green melons at room temperature uncovered, out of direct sunlight.",
+      "prepare": "Rinse, cut in half, scoop out seeds."
+    },
+    {
+      "id": 28,
+      "name": "jackfruit",
+      "img": "../../../assets/jackfruit.gif",
+      "serving": "87 g (125 ml)",
+      "nutrition": [
+        "Source of magnesium (13% Recommended Daily Intake per serving)",
+        "Source of manganese (9% Recommended Daily Intake per serving)",
+        "Source of copper (8% Recommended Daily Intake per serving)",
+        "Source of potassium (264 mg per serving)",
+        "Sodium-free (3 mg per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Fruits that range in colour from green to yellow. It should have yellow flesh and a noticeable fragrance.",
+      "store": "Keep it at room temperature for up to 5 days or in the refrigerator for up to 6 weeks.",
+      "prepare": "Jackfruit is consumed fresh. Discard the core, seeds and skin since they are inedible."
+    },
+    {
+      "id": 29,
+      "name": "java-plum",
+      "img": "../../../assets/javaplum.gif",
+      "serving": "60 g (20 fruits) ",
+      "nutrition": [
+        "Source of Vitamin C (14% Recommended Daily Intake per serving)",
+        "Fat-free (0.1 g per serving)"
+      ],
+      "lookFor": "Firm, glossy unbruised yellow fruit. The pulp is soft with a sweet and sour taste.",
+      "store": "Refrigerate covered for several weeks.",
+      "prepare": "RThe java-plum pulp is either eaten fresh or made into juice, concentrate, jellies and sherbets."
+    },
+    {
+      "id": 30,
+      "name": "jujube fruit",
+      "img": "../../../assets/jujube.gif",
+      "serving": "70 g (5 fruits)",
+      "nutrition": [
+        "High in Vitamin C (46% Recommended Daily Intake per serving)",
+        "Source of Vitamin B6 (10% Recommended Daily Intake per serving)",
+        "Source of iron (9% Recommended Daily Intake per serving)",
+        "Source of potassium (214 mg per serving)",
+        "High in fibre (5 mg per serving)",
+        "Fat-free (0.4 g per serving)"
+      ],
+      "lookFor": "The fruit changes from green to brownish colour as they ripen. Choose fruit that is firm and free of blemishes or bruises.",
+      "store": "Once fully ripened, store at room temperature for up to 5 days. Candied jujubes can last in jars for around 3 months.",
+      "prepare": "The ripe fruit is mostly consumed raw. Prepare a candied version by pricking and immersing the unripe jujube in a sugar solution and marinating it for a few weeks."
+    },
+    {
+      "id": 31,
+      "name": "kiwi",
+      "img": "../../../assets/kiwi.gif",
+      "serving": "140 g (2 medium)",
+      "nutrition": [
+        "Very high in Vitamin C (220% Recommended Daily Intake per serving)",
+        "Good source of potassium (430 mg per serving)",
+        "High source of fibre (4 g per serving)",
+        "Low in fat (1 mg per serving)"
+      ],
+      "lookFor": "Evenly ripe fruit, free of mold or soft spots that yield to gentle pressure.",
+      "store": "Refrigerate ripe fruit covered for up to two weeks. Ripen at room temperature uncovered out of direct sunlight.",
+      "prepare": "Rinse. Eat with or without skin."
+    },
+    {
+      "id": 32,
+      "name": "kumquat",
+      "img": "../../../assets/kumquat.gif",
+      "serving": "95 g (5 fruits)",
+      "nutrition": [
+        "Very high in Vitamin C (70% Recommended Daily Intake per serving)",
+        "Source of magnesium (8% Recommended Daily Intake per serving)",
+        "Source of calcium (5% Recommended Daily Intake per serving)",
+        "Very high in fibre (6 g per serving)"
+      ],
+      "lookFor": "Select firm kumquats that have glossy rinds without cracks or blemishes. Soft fruits can spoil rapidly. Avoid kumquats that are shrivelled. Choose fruits with freshly picked leaves still attached.",
+      "store": "UKumquats will keep for a few days at room temperature. You can refrigerate them in a plastic bag for up to a month.",
+      "prepare": "Unlike almost every other citrus variety, you eat the entire fruit, peel and all. What’s more, the sweet part is the peel, whereas the pulp is extremely tart (or at least sour enough that the peel seems sweet in contrast). If you’re not going to eat them out of hand, slice kumquats thin and add them to a winter salad. "
+    },
+    {
+      "id": 33,
+      "name": "lemon",
+      "img": "../../../assets/lemon.gif",
+      "serving": "55 g (1 small)",
+      "nutrition": [
+        "High in Vitamin C (40% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Bright, yellow, smooth, firm fruit, heavy for size.",
+      "store": "Keep at cool room temperature for one week or refrigerate for up to one month.",
+      "prepare": "Rinse, squeeze for juice or slice for a garnish. To use the peel, rinse, pat dry and grate skin."
+    },
+    {
+      "id": 34,
+      "name": "lime",
+      "img": "../../../assets/lime.jpg",
+      "serving": "55 g (1 small)",
+      "nutrition": [
+        "Source of fibre (2 g per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "longan",
+      "img": "../../../assets/longan.gif",
+      "serving": "64 g (20 fruits)",
+      "nutrition": [
+        "Very high in Vitamin C (90% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "SFat-free (0.1 g per serving)"
+      ],
+      "lookFor": "Firm and free of bruises and blemishes. Ripe fruits have an intense tan colour.",
+      "store": "Store longans in a plastic bag in the fridge for 5 – 7 days.",
+      "prepare": "Eat raw or use in salads with vegetables and in sauces."
+    },
+    {
+      "id": 36,
+      "name": "loquat",
+      "img": "../../../assets/loquat.gif",
+      "serving": "157 g (250 mL)",
+      "nutrition": [
+        "Source of copper (12% Recommended Daily Intake per serving)",
+        "Source of folacin (10% Recommended Daily Intake per serving)",
+        "Source of Vitamin B6 (9% Recommended Daily Intake per serving)",
+        "Source of magnesium (8% Recommended Daily Intake per serving)",
+        "Source of fiber (3 g per serving)",
+        "Sodium-free (2 mg per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Bright, yellow, smooth, firm fruit, heavy for size.",
+      "store": "Keep at cool room temperature for one week or refrigerate for up to one month.",
+      "prepare": "Rinse, squeeze for juice or slice for a garnish. To use the peel, rinse, pat dry and grate skin."
+    },
+    {
+      "id": 37,
+      "name": "lychee",
+      "img": "../../../assets/lychee.gif",
+      "serving": "96 g (10 fruits)",
+      "nutrition": [
+        "Very high in Vitamin C (114% Recommended Daily Intake per serving)",
+        "Source of copper (7% Recommended Daily Intake per serving)",
+        "Source of Vitamin B6 (5% Recommended Daily Intake per serving)",
+        "SSodium-free (1 mg per serving)"
+      ],
+      "lookFor": "A rosy looking skin. Lychees will not ripen further after being harvested.",
+      "store": "Store lychees in a plastic bag in the refrigerator and eat them within a week.",
+      "prepare": "Before eating, remove the stem and peel off the outer skin. Remember that the shiny brown seed in the middle is inedible."
+    },
+    {
+      "id": 38,
+      "name": "mandarin",
+      "img": "../../../assets/mandarin.gif",
+      "serving": "88 g (1 medium mandarin)",
+      "nutrition": [
+        "Source of Fiber",
+        "Source of Vitamin A (12% Recommended Daily Intake per serving)",
+        "Source of Vitamin C (39% Recommended Daily Intake per serving)"
+      ],
+      "lookFor": "Look for mandarins that are heavy and unblemished.",
+      "store": "At room temperature for short period of time or in the refrigerator for periods of up to 2 weeks.",
+      "prepare": "Rinse and remove skin. Enjoy raw or use in cooking."
+    },
+    {
+      "id": 39,
+      "name": "mango",
+      "img": "../../../assets/mango.gif",
+      "serving": "140 g (1/2 large)",
+      "nutrition": [
+        "High in Vitamin C (45% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0.5 g per serving)"
+      ],
+      "lookFor": "SPlump fruit without green background colour that yields to gentle pressure. Avoid soft, brusied or shrivelled fruit.",
+      "store": "Ripen fruit uncovered at room temperature. Cover, refrigerate ripe fruit for up to three days.",
+      "prepare": "Rinse. Score skin in four sections and peel like a banana or cut in half and remove pit. Fruit clings to pit so slice as much as possible from it."
+    },
+    {
+      "id": 40,
+      "name": "mangosteen",
+      "img": "../../../assets/mangosteen.gif",
+      "serving": "83 g (100 mL)",
+      "nutrition": [
+        "Source of folacin (12% Recommended Daily Intake per serving)",
+        "Fat-free (0.5 g per serving)"
+      ],
+      "lookFor": "Ones that are dark purple or reddish purple but not blue-black in colour. Softly press the outer skin, if it’s hard to press, then it’s not ripe yet.  The part you want to eat is the inner white flesh, larger segments may contain seeds, which are inedible unless boiled or roasted.",
+      "store": "A ripe fruit at room temperature lasts for a few days. Unlike mangos, mangosteens must not be frozen as refrigeration or freezing quickly causes damage. For longer storage, keep it at 10°C which will keep it in good shape for several weeks.",
+      "prepare": "The simplest method is to place the mangosteen in the palm of your hands, with the flower stem on top. Use your fingers to exert gentle pressure on it until it cracks open. Another option is to cut through the diameter of the shell all the way around, and then simply lift off the top. Just remember not to cut right through the segments."
+    },
+    {
+      "id": 41,
+      "name": "mulberries",
+      "img": "../../../assets/mulberries.gif",
+      "serving": "74 g (125 ml)",
+      "nutrition": [
+        "High in Vitamin C (45% Recommended Daily Intake per serving)",
+        "Source of Vitamin K (7% Recommended Daily Intake per serving)",
+        "Source of iron (10% Recommended Daily Intake per serving)",
+        "Source of magnesium (5% Recommended Daily Intake per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Shiny, plump and firm. Avoid berries that are bruised or leaking.",
+      "store": "Unwashed fruits can last for up to 1 week in a ventilated container in the fridge.",
+      "prepare": "Rinse. Remove damaged berries. Eat raw. Good in baking, could easily replace blackberries in many recipes."
+    },
+    {
+      "id": 42,
+      "name": "nectarine",
+      "img": "../../../assets/nectarine.gif",
+      "serving": "140 g (1 medium)",
+      "nutrition": [
+        "Source of Vitamin C (15% Recommended Daily Intake per serving)",
+        "Source of potassium (250 mg per serving)",
+        "Source of fibre (2 g per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Low in fat (0.5 g per serving)"
+      ],
+      "lookFor": "Fruit with a red on orange-yellow (not green) background. Ripe fruit yields to gentle pressure.",
+      "store": "LRipen firm fruit at room temperature out of direct sunlight. Cover, refrigerate ripe fruit unwashed for up to one week.",
+      "prepare": "Rinse and eat. To remove pit, cut fruit lengthwise around pit and twist to separate halves. To prevent browning, coat cut surfaces with lemon juice."
+    },
+    {
+      "id": 43,
+      "name": "olives",
+      "img": "../../../assets/olives.gif",
+      "serving": "157 g (100 mL) ",
+      "nutrition": [
+        "Source of fibre (2 g per serving)",
+        "Source of iron (13% mg per serving)"
+      ],
+      "lookFor": "Olives that are firm. Avoid soft or mushy olives.",
+      "store": "Unopened cans and jars of olives should be stored in a cool, dry place up to one year. Once opened, canned olives should be removed from the can and placed in the refrigerator for up to 2 weeks.",
+      "prepare": "Eat raw or use in salads with vegetables and in sauces."
+    },
+    {
+      "id": 44,
+      "name": "orange",
+      "img": "../../../assets/orange.gif",
+      "serving": "140 g (1 medium)",
+      "nutrition": [
+        "Very high in Vitamin C (120% Recommended Daily Intake per serving)",
+        "Source of fibre (3 g per serving)",
+        "Source of potassium (230 mg per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Firm fruit, heavy for size with smooth skin, free of soft spots.",
+      "store": "Keep at room temperature for up to one week or refrigerate for up to one month. Room temperature fruit yields the most juice.",
+      "prepare": "Rinse, peel and eat. Squeeze thin skinned oranges for juice."
+    },
+    {
+      "id": 45,
+      "name": "papaya",
+      "img": "../../../assets/papaya.gif",
+      "serving": "153 g (1/2 fruit)",
+      "nutrition": [
+        "Very high in Vitamin C (157% Recommended Daily Intake per serving)",
+        "Very high in folacin (26% Recommended Daily Intake per serving)",
+        "High in potassium (392 mg per serving)",
+        "Source of Vitamin K (5% Recommended Daily Intake per serving)",
+        "Source of fibre (2.7 g per serving)",
+        "Fat-free (0.2 g per serving)"
+      ],
+      "lookFor": "Fruit with smooth unblemished skin. Ripe fruit has more yellow than green colouring and yields to gentle pressure.",
+      "store": "Ripen firm fruit at room temperature in a loosely closed paper bag. Cover, refrigerate ripe fruit for up to one week.",
+      "prepare": "Rinse, cut in half lengthwise. Scoop out seeds. Scope out flesh or peel skin and cut as desired."
+    },
+    {
+      "id": 46,
+      "name": "passion fruit",
+      "img": "../../../assets/passionfruit.gif",
+      "serving": "36 g (2 fruits)",
+      "nutrition": [
+        "High in fibre (3.7 g per serving)",
+        "Source of Vitamin K (6% Recommended Daily Intake per serving)",
+        "Source of Vitamin C (18% Recommended Daily Intake per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Dark purple, pink or yellow green egg shaped fruit. Shriveled fruit is ripe and ready to eat.",
+      "store": "Refrigerate ripe fruit covered for a few days. Ripen at room temperature, out of direct sun until wrinkled.",
+      "prepare": "Halve and scoop out juicy, yellow pulp and edible seeds. Eat fresh and use in desserts, juices and jams. A little lime juice heightens its flavour. Sweet tart flavour and very fragrant smell."
+    },
+    {
+      "id": 47,
+      "name": "peach",
+      "img": "../../../assets/peach.gif",
+      "serving": "140 g (1 medium)",
+      "nutrition": [
+        "Source of Vitamin C (15 % Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Fruit with yellowish (not green) background. Ripe fruit yields to gentle pressure when squeezed in your palm, not with the fingers.",
+      "store": "Cover, refrigerate ripe fruit unwashed for up to one week. Ripen firm fruit at room temperature in a paper bag.",
+      "prepare": "Rinse. Remove pit by cutting fruit lengthwise around pit and twist to separate halves. Peel if desired. Blanching will remove skins."
+    },
+    {
+      "id": 48,
+      "name": "pear",
+      "img": "../../../assets/pear.gif",
+      "serving": "140 g (1 medium)",
+      "nutrition": [
+        "High in fibre (5 g per serving)",
+        "Source of Vitamin C (10% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Firm, well shaped, fruit. Use fully ripe fruit for immediate use. Minor scars and blemishes do not affect flavour.",
+      "store": "Cover, refrigerate unwashed ripe fruit for up to three days. Ripen firm fruit at room temperature in a paper bag until it yields to gentle pressure at stem.",
+      "prepare": "Rinse. To prevent browning, coat cut surfaces with lemon juice."
+    },
+    {
+      "id": 49,
+      "name": "persimmon",
+      "img": "../../../assets/persimmon.gif",
+      "serving": "168 g (1 fruit)",
+      "nutrition": [
+        "Very high in manganese (30% Recommended Daily Intake per serving)",
+        "Source of Vitamin C (21% Recommended Daily Intake per serving)",
+        "Source of Vitamin B6 (9% Recommended Daily Intake per serving)",
+        "Source of Vitamin K (6% Recommended Daily Intake per serving)",
+        "Source of magnesium (6% Recommended Daily Intake per serving)",
+        "Source of potassium (270 mg per serving)",
+        "Sodium-free (2 mg per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Persimmons with deep red undertones. Look for persimmons that are round and plump with glossy, smooth skin. Avoid blemishes, bruises or cracked skin and ensure it has leaves at the top.",
+      "store": "Store them in the refrigerator when ripe",
+      "prepare": "The fruit can be eaten raw. Wait until they’re extremely soft, so that they feel as if they’re filled with water, before eating their jelly-like insides or else the experience will be very unpleasant. It can take up to a week for one to ripen, but the process can be sped up by storing it in a paper bag with a banana. Fuyu persimmons can be eaten when firm like an apple, skin and all."
+    },
+    {
+      "id": 50,
+      "name": "pitaya",
+      "img": "../../../assets/dragonfruit.gif",
+      "serving": "1/2 cup scooped flesh (100 grams)",
+      "nutrition": [
+        "Source of fibre",
+        "36 calories per serving"
+      ],
+      "lookFor": "Bright even coloured skin without too many blotches. A just ripe fruit will yield to slight pressure.",
+      "store": "Leave on the counter if you plan to eat in a few days. Otherwise store in a sealed plastic bag in the refrigerator.",
+      "prepare": "Prepare like a kiwi.  Cut in half and use a spoon to separate flesh from skin."
+    },
+    {
+      "id": 51,
+      "name": "pineapple",
+      "img": "../../../assets/pineapple.gif",
+      "serving": "140 g (2 medium slices)",
+      "nutrition": [
+        "Very high in Vitamin C (70% Recommended Daily Intake per serving)",
+        "Low in sodium(1 5 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Large plump, fruit with sweet fragrance and crown of deep green (not brown) leaves. Colour is not an indication of ripeness.",
+      "store": "Use immediately or refrigerate uncovered for two or three days.",
+      "prepare": "Rinse, discard crown and bottom end. Remove end on strips from top to bottom. Slice and core as desired."
+    },
+    {
+      "id": 52,
+      "name": "pitanga",
+      "img": "../../../assets/pitanga.gif",
+      "serving": "73 g (100 mL)",
+      "nutrition": [
+        "High in Vitamin C (32% Recommended Daily Intake per serving)",
+        "Sodium-free (2 mg per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Firm, plump, dry, red coloured fruits.",
+      "store": "Keep uncovered at room temperature for a few days or refrigerate washed fruits in a ventilated container for 1 to 2 weeks.",
+      "prepare": "Fresh fruits may be eaten plain or pressed into juice, jams and preserves."
+    },
+    {
+      "id": 53,
+      "name": "platain",
+      "img": "../../../assets/plantain.gif",
+      "serving": "81 g (125 mL)",
+      "nutrition": [
+        "High in potassium (378 mg per serving)",
+        "Source of Vitamin C (15% Recommended Daily Intake per serving)",
+        "Source of Vitamin B6 (11% Recommended Daily Intake per serving)",
+        "Source of folacin (10% Recommended Daily Intake per serving)",
+        "Sodium-free (4 mg per serving)",
+        "Fat-free (0.2 g per serving)"
+      ],
+      "lookFor": "Firm, heavy plantains. The skin may be green, yellow or black depending on its ripeness. When ripe, they have brown skin, dark spots and rough areas.",
+      "store": "Refrigerate for a few days when very ripe and soft. If unripe, store uncovered in a dark cool area.",
+      "prepare": "Wash and leave skins for baking. Peel and slice for sauting and mashing."
+    },
+    {
+      "id": 54,
+      "name": "plum",
+      "img": "../../../assets/plums.gif",
+      "serving": "140 g (1 medium)",
+      "nutrition": [
+        "Source of Vitamin C (10% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Full coloured smooth fruit. Ripe fruit yields to gentle pressure.",
+      "store": "Cover, refrigerate ripe fruit unwashed for up to five days. Ripen firm fruit in loosely closed paper bag at room temperature.",
+      "prepare": "Rinse and eat."
+    },
+    {
+      "id": 55,
+      "name": "pomegranate",
+      "img": "../../../assets/pomegranate.gif",
+      "serving": "77 g (1/2 fruit)",
+      "nutrition": [
+        "Source of Vitamin C (13% Recommended Daily Intake per serving)",
+        "Source of Vitamin K (16% Recommended Daily Intake per serving)",
+        "Sodium-free (2 mg per serving)",
+        "Source of fibre (3 g per serving)"
+      ],
+      "lookFor": "Large pomegranates, heavy for size.",
+      "store": "Keep at room temperature for a few days or refrigerate for 1 to 2 weeks. Seeds and juice can be frozen.",
+      "prepare": "Slit skin and carefully pull away skin and pith (note: the juice stains). Only seeds are edible. Pomegranates are juicy with a sweet tart flavour. Sprinle over salads, desserts or crush seeds in blender and strain to make juice for drinks, sauces and jellies."
+    },
+    {
+      "id": 56,
+      "name": "prickly pear",
+      "img": "../../../assets/tinypricklypear.gif",
+      "serving": "103 g (1 medium)",
+      "lookFor": "Firm, unblemished fruit, yellow to red in colour.",
+      "store": "Refrigerate ripe fruits unwashed up to 5 days. Ripe prickly pears are red all over. Ripen fruits at room temperature.",
+      "prepare": "Peel skin back and scoop out fruit to puree or slice using rubber gloves. Peeled fruit can be frozen. Sprinkle with lemon or lime juice to accent flavour. Use in fruit salads or as a garnish with meat dishes. Sweet, juicy texture like watermelon and pear like taste."
+    },
+    {
+      "id": 57,
+      "name": "prunes",
+      "img": "../../../assets/prunes.gif",
+      "serving": "25 g (3 dried fruits)",
+      "nutrition": [
+        "Source of Vitamin K (19% Recommended Daily Intake per serving)",
+        "Sodium-free (1 mg per serving)",
+        "Fat-free (0.1 g per serving)"
+      ],
+      "lookFor": "Dark, shiny, moist, slightly soft and nicely plump. Prunes are readily available in most supermarkets, pre-packaged, in bulk or in a jar in their own juice.",
+      "store": "Store in an airtight container in a cool, dry and dark place where they will keep for several months. Storing them in the refrigerator will extend their freshness, allowing them to keep for about six months."
+    },
+    {
+      "id": 58,
+      "name": "pummelo",
+      "img": "../../../assets/pummelo.gif",
+      "serving": "100 g (125 mL)",
+      "nutrition": [
+        "Very high in Vitamin C (102% Recommended Daily Intake per serving)",
+        "Source of potassium (217 mg per serving)",
+        "Sodium-free (1 mg per serving)",
+        "Fat-free (0.04 g per serving)"
+      ],
+      "lookFor": "Fruit that feels firm and heavy for its size, as lightweight pummelos lack juice.",
+      "store": "Store at room temperature for 3 to 5 days or in the refrigerator for up to 2 weeks.",
+      "prepare": "Prepare and eat a pummelo much as you would many other citrus fruits. However, one distinguishing feature of the pummelo is its thick rind which may necessitate use of a decent knife."
+    },
+    {
+      "id": 59,
+      "name": "quince",
+      "img": "../../../assets/quince.gif",
+      "serving": "92 g (1 fruit)",
+      "nutrition": [
+        "Source of Vitamin C (23% Recommended Daily Intake per serving)",
+        "Source of copper (6% Recommended Daily Intake per serving)",
+        "Sodium-free (4 mg per serving)",
+        "Fat-free (0.1 g per serving)"
+      ],
+      "lookFor": "Large, firm and yellow fruit with little or no green.",
+      "store": "Wrap quinces in a plastic bag and refrigerate them for up to 2 months.",
+      "prepare": "Quinces must first be cooked to eradicate the astringency of the raw version. To prepare the fruit, remove the peel, then use a sharp knife to remove the core. Slice into even pieces. If you are making jam or jelly, leave the peel on as the pectin it contains will help the jam to set. A cooked and ready quince is a lovely deep rose colour. Quince flesh can discolour quickly. Placing the quince pieces in water with a squeeze of lemon will help to slow the browning process. Quinces require long, slow boiling process."
+    },
+    {
+      "id": 60,
+      "name": "raspberries",
+      "img": "../../../assets/raspberries.gif",
+      "serving": "80 g (1/2 cup)",
+      "nutrition": [
+        "Source of Vitamin C (25% Recommended Daily Intake per serving)",
+        "High in fibre (5 g per serving)",
+        "Sodium-free (0 mg per serving)"
+      ],
+      "lookFor": "Firm well shaped, plump berries.",
+      "store": "Arrange unwashed on paper towel in shallow pan. Loosely cover, refrigerate unwashed for up to two days. For longer storage, freeze for up to one year.",
+      "prepare": "Gently rinse and pat dry."
+    },
+    {
+      "id": 61,
+      "name": "rhubarb",
+      "img": "../../../assets/rhubarb.gif",
+      "serving": "125 ml (1/2 cup)",
+      "nutrition": [
+        "Source of Vitamin C (9% Recommended Daily Intake per serving)",
+        "Source of calcium (5% Recommended Daily Intake per  serving)",
+        "High in vitamin K (24% Recommended Daily Intake per serving)",
+        "High in fibre (5.0 g per serving)",
+        "Sodium-free (3 mg per serving)",
+        "Fat-free (0.1 g per serving)"
+      ],
+      "lookFor": "Firm, crisp looking stalks.",
+      "store": "Cover and refrigerate unwashed for up to 1 week. For longer storage, freeze for up to 1 year.",
+      "prepare": "Remove leaves, they are inedible and toxic. Rinse stalks well. Cut crosswise and cook."
+    },
+    {
+      "id": 62,
+      "name": "rose apple",
+      "img": "../../../assets/roseapple.gif",
+      "serving": "100 g",
+      "nutrition": [
+        "High in Vitamin C (37% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Round, greenish-yellow fruit. The fruit smells and tastes like rose water.",
+      "store": "Keep at room temperature for up to 5 days.",
+      "prepare": "Gently rinse and eat raw."
+    },
+    {
+      "id": 63,
+      "name": "sapodilla",
+      "img": "../../../assets/sapodilla.gif",
+      "serving": "85 g (1/2 fruit)",
+      "nutrition": [
+        "Source of Vitamin C (21% Recommended Daily Intake per serving)",
+        "Source of folacin (5% Recommended Daily Intake per serving)",
+        "High in fibre (4.5 g per serving)"
+      ],
+      "lookFor": "Ripe fruit that gives a little bit under pressure when pressed.",
+      "store": "Ripe fruit can be stored at room temperature for up to 1 week or refrigerate for up to 5 days.",
+      "prepare": "Halve the fruit and eat the pulp with a spoon. Remove the seeds before consumption. Add the pulp to smoothies or make a sapodilla pie for dessert."
+    },
+    {
+      "id": 64,
+      "name": "sapote",
+      "img": "../../../assets/sapote.gif",
+      "serving": "113 g (1/2 fruit)",
+      "nutrition": [
+        "Source of magnesium (14% Recommended Daily Intake per serving)",
+        "High in Vitamin C (38% Recommended Daily Intake per serving)",
+        "Source of iron (8% Recommended Daily Intake per serving)",
+        "Source of fibres (2.9 g per serving)",
+        "Source of potassium (387mg per serving)"
+      ],
+      "lookFor": "Ripe fruit has smooth, brown, inedible skin and a raised crown on top of the fruit. Mamey sapote is hard when unripe and becomes softer as it ripens.",
+      "store": "Store at room temperature until they are a little tender to the touch at which point they should be immediately consumed or refrigerated in a plastic bag for a couple of weeks.",
+      "prepare": "Usually eaten raw. Do not forget to first remove its skin and any pits inside."
+    },
+    {
+      "id": 65,
+      "name": "soursop",
+      "img": "../../../assets/soursop.gif",
+      "serving": "119 g (125 mL)",
+      "nutrition": [
+        "Source of magnesium (10% Recommended Daily Intake per serving)",
+        "High in Vitamin C (41% Recommended Daily Intake per serving)",
+        "Source of iron (7% Recommended Daily Intake per serving)",
+        "High in fibre (4 g per serving)",
+        "Source of potassium (330 mg per serving)",
+        "Fat-free (0.4 g per serving)"
+      ],
+      "lookFor": "Heart-shaped fruits with firm and green leathery skin.",
+      "store": "A puree made by processing the white flesh with sugar freezes well and can be used in a variety of dessert recipes.",
+      "prepare": "The flesh can be eaten raw with a spoon. Process the seedless pulp to make juice or sherbet. Caution: remove all seeds as they are toxic."
+    },
+    {
+      "id": 66,
+      "name": "strawberries",
+      "img": "../../../assets/strawberries.gif",
+      "serving": "140 g (7 medium)",
+      "nutrition": [
+        "Very high in Vitamin C (150% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Firm, plump berries that are fully red with bright green caps. Strawberries do not ripen once picked.",
+      "store": "Arrange unwashed on paper towel in shallow pan. Loosely cover, refrigerate unwashed for up to two days or freeze for up to one year.",
+      "prepare": "Remove the seeds and peel before eat"
+    },
+    {
+      "id": 67,
+      "name": "sugar-apple",
+      "img": "../../../assets/sugarapple.gif",
+      "serving": "106 g (100 mL)",
+      "nutrition": [
+        "Very high in Vitamin C (64% Recommended Daily Intake per serving)",
+        "Source of Vitamin B1 (9% Recommended Daily Intake per serving)",
+        "Source of Vitamin B6 (12% Recommended Daily Intake per serving)",
+        "Source of magnesium (9% Recommended Daily Intake per serving)",
+        "High in fibre (5 g per serving)",
+        "Fat-free (0.3 g per serving)"
+      ],
+      "lookFor": "Green colour with some black spots, firm and without blemishes. Splotches should be avoided.",
+      "store": "Ripen at room temperature for a few days until softened. They can then be refrigerated in a ventilated container for up to 4 days.",
+      "prepare": "Remove the seeds and peel before eating. Halve the fruit and spoon the inside from the shell."
+    },
+    {
+      "id": 68,
+      "name": "tamarind",
+      "img": "../../../assets/tamarind.gif",
+      "serving": "100 g",
+      "nutrition": [
+        "Very high in magnesium (37% Recommended Daily Intake per serving)",
+        "Source of phosphorus (10% Recommended Daily Intake per serving)",
+        "Source of Vitamin C (6% Recommended Daily Intake per serving)",
+        "Very high in potassium (628 mg per serving)"
+      ],
+      "lookFor": "The bean-shaped thick pod in which the sticky pulp or fruit of the tamarind grows. The pods can vary in size from two to seven inches in length, and one inch in width.",
+      "store": "Store whole pods in a cool, dark place at room temperature.  After opening, store pods tightly wrapped or capped in the refrigerator, it will stay good for at least three months. Simply cut off the amount you want to use with a sharp, heavy knife. Well wrapped, frozen, unsweetened tamarind pulp keeps indefinitely in the freezer.",
+      "prepare": "You must extract the tamarind fruit from the pod before you can eat it. Shell the brittle pod of a ripe tamarind. Use your fingers to crack the cinnamon-brown coloured shell which encases the pod. Discard the veins or coarse strands of fiber that extend lengthwise along the pod."
+    },
+    {
+      "id": 69,
+      "name": "tangerine",
+      "img": "../../../assets/tangerine.gif",
+      "serving": "140, g (1 large; 2 small)",
+      "nutrition": [
+        "Very high in Vitamin C (60% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "Firm, heavy fruit with glossy orange skin.",
+      "store": "Refrigerate covered for several weeks.",
+      "prepare": "Peel and eat fresh. Use sections to garnish desserts or poultry based dishes."
+
+    },
+    {
+      "id": 70,
+      "name": "watermelon",
+      "img": "../../../assets/watermelon.gif",
+      "serving": "150 g (1/12 mini; 1/18 small; 1/28 large; 1 cup diced)",
+      "nutrition": [
+        "Source of Vitamin C (15% Recommended Daily Intake per serving)",
+        "Sodium-free (0 mg per serving)",
+        "Fat-free (0 g per serving)"
+      ],
+      "lookFor": "A firm symmetrical melon with fully rounded sides and a yellowish underside. If cut, select a melon with bright red flesh.",
+      "store": "Whole melons will keep for 7 to 10 days at room temperature. Store them too long, and they’ll lose flavour and texture. After cutting, store wrapped watermelon in refrigerator for 3-4 days.",
+      "prepare": "Rinse, cut melon into wedges or scoop out flesh."
+    }
+  ]
+}

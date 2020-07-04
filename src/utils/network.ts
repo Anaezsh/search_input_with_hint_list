@@ -3,7 +3,10 @@ import {AxiosRequestConfig, AxiosResponse} from 'axios';
 export const axios = require('axios').default;
 
 const instance = axios.create({
-    baseURL: 'http://demo4258569.mockable.io',
+    // for test on real device
+    // baseURL: 'http://demo4258569.mockable.io',
+    // for test on simulator
+    baseURL: 'http://localhost:3000',
     timeout: 60000,
 });
 
