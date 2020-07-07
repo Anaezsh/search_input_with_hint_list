@@ -28,6 +28,7 @@ const searchSlice = createSlice({
     reducers: {
         setIsLoading(state: IState, action: PayloadAction<boolean>) {
             state.isLoading = action.payload;
+            state.error = undefined;
         },
         setError(state: IState, action: PayloadAction<string>) {
             state.error = action.payload;

@@ -6,7 +6,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
@@ -24,9 +25,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
+    "@types/jest": "^26.0.4",
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.17",
+    "@types/react-redux": "^7.1.9",
     "babel-preset-expo": "~8.1.0",
+    "jest": "^26.1.0",
+    "react-test-renderer": "^16.13.1",
     "typescript": "~3.8.3"
   },
   "private": true
